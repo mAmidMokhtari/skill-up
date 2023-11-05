@@ -1,0 +1,36 @@
+{
+  "mainLayout": {
+    "sidebar": {
+      "dashboard": "داشبورد",
+      "todo": "کار ها",
+      "weather": "آب و هوا",
+      "profile": "حساب کاربری",
+      "alert": "لطفا نام کاربری را در تب حساب کاربری تغییر دهید"
+    },
+  "dashboard": {
+      "good morning": "صبح بخیر، ",
+      "user": "کاربر"
+  },
+  "todo": {
+    "todo list": "لیست کار ها",
+    "please insert note": "لطفا متن را وارد کنید..."
+  },
+  "weather": {
+    "city": "شهر"
+  },
+  "profile": {
+    "username": "نام کاربری",
+    "theme": "تم",
+    "language": "زبان",
+    "save": "ذخیره",
+    "english": "انگلیسی",
+    "farsi": "فارسی",
+    "light": "روشن",
+    "dark": "تاریک"
+  },
+  "notFound": {
+    "notFound": "صفحه مورد نظر پیدا نشد.",
+    "returnText": "بازگشت به صفحه‌ی اصلی"
+  }
+  }
+}

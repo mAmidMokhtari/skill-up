@@ -1,0 +1,36 @@
+{
+    "mainLayout": {
+      "sidebar": {
+        "dashboard": "Dashboard",
+        "todo": "Todo",
+        "weather": "Weather",
+        "profile": "Profile",
+        "alert": "Please change the username in the Profile tab"
+      },
+    "dashboard": {
+        "good morning": "Good Morning, ",
+        "user": "User"
+    },
+    "todo": {
+      "todo list": "Todo List",
+      "please insert note": "Please Insert Note..."
+    },
+    "weather": {
+      "city": "City"
+    },
+    "profile": {
+      "username": "Username",
+      "theme": "Theme",
+      "language": "Language",
+      "save": "Save Changes",
+      "english": "English",
+      "farsi": "Farsi",
+      "light": "light",
+      "dark": "dark"
+    },
+    "notFound": {
+      "notFound": "The page not found.",
+      "returnText": "Return Home"
+    }
+    }
+  }
