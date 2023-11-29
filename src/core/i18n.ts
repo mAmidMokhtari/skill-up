@@ -1,8 +1,9 @@
 import i18n from "i18next";
 import Backend from "i18next-http-backend";
-import translationEN from "locales/en/translation.json";
-import translationFA from "locales/fa/translation.json";
 import { initReactI18next } from "react-i18next";
+
+import translationEN from "../locales/en/translation.json";
+import translationFA from "../locales/fa/translation.json";
 
 const language = window.localStorage.getItem("language");
 

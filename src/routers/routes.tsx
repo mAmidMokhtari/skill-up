@@ -1,5 +1,7 @@
 import { lazy } from "react";
 
+import { useRoutes } from "react-router-dom";
+
 import {
   DASHBOARD_ROUTE,
   HOME_ROUTE,
@@ -7,17 +9,16 @@ import {
   PROFILE_ROUTE,
   TODO_ROUTE,
   WEATHER_ROUTE,
-} from "constants/routes";
-import Profile from "pages/Home/Profile";
-import Todo from "pages/Home/Todo";
-import Weather from "pages/Home/Weather";
-import { useRoutes } from "react-router-dom";
+} from "../constants/routes";
+import Profile from "../pages/Home/Profile";
+import Todo from "../pages/Home/Todo";
+import Weather from "../pages/Home/Weather";
 
 // protected
-const HomePage = lazy(() => import("pages/Home"));
-const DashboardPage = lazy(() => import("pages/Home/Dashboard"));
+const HomePage = lazy(() => import("../pages/Home"));
+const DashboardPage = lazy(() => import("../pages/Home/Dashboard"));
 
-const NotFoundPage = lazy(() => import("pages/NotFound"));
+const NotFoundPage = lazy(() => import("../pages/NotFound"));
 
 export const Routes = () =>
   useRoutes([

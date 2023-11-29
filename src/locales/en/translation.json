@@ -16,17 +16,18 @@
       "please insert note": "Please Insert Note..."
     },
     "weather": {
-      "city": "City"
+      "city": "Please Select a City"
     },
     "profile": {
       "username": "Username",
-      "theme": "Theme",
-      "language": "Language",
+      "name": "What is your name?",
+      "theme": "Select Theme",
+      "language": "Select Language",
       "save": "Save Changes",
       "english": "English",
-      "farsi": "Farsi",
-      "light": "light",
-      "dark": "dark"
+      "farsi": "Persian",
+      "light": "Light Mode",
+      "dark": "Dark Mode"
     },
     "notFound": {
       "notFound": "The page not found.",

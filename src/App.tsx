@@ -1,7 +1,21 @@
+import "./core/i18n";
+
+import { Suspense } from "react";
+
+import TranslateProvider from "./providers/translate";
+import UserProvider from "./providers/user";
+import Router from "./routers";
+
 export default function App() {
   return (
-    <>
-      <h1 className="text-red-400">Hello world!</h1>
-    </>
+    <Suspense
+      fallback={<span className="loading loading-infinity loading-lg"></span>}
+    >
+      <TranslateProvider>
+        <UserProvider>
+          <Router />
+        </UserProvider>
+      </TranslateProvider>
+    </Suspense>
   );
 }
