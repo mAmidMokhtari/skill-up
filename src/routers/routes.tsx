@@ -3,7 +3,6 @@ import { lazy } from "react";
 import { useRoutes } from "react-router-dom";
 
 import {
-  DASHBOARD_ROUTE,
   HOME_ROUTE,
   NOT_FOUND_ROUTE,
   PROFILE_ROUTE,
@@ -25,9 +24,10 @@ export const Routes = () =>
     {
       path: HOME_ROUTE,
       element: <HomePage />,
+
       children: [
         {
-          path: DASHBOARD_ROUTE,
+          path: HOME_ROUTE,
           element: <DashboardPage />,
         },
         {

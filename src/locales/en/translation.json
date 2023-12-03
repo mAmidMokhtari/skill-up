@@ -5,7 +5,7 @@
         "todo": "Todo",
         "weather": "Weather",
         "profile": "Profile",
-        "alert": "Please change the username in the Profile tab"
+        "alert": "Please change the username in the"
       },
     "dashboard": {
         "good morning": "Good Morning, ",
@@ -20,7 +20,7 @@
     },
     "profile": {
       "username": "Username",
-      "name": "What is your name?",
+      "name": "Please enter your name...",
       "theme": "Select Theme",
       "language": "Select Language",
       "save": "Save Changes",

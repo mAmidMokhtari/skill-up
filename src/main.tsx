@@ -1,5 +1,7 @@
 import "./index.css";
 import "./core/i18n";
+import "tailwindcss/tailwind.css";
+import "daisyui/dist/full.css";
 
 import React from "react";
 
